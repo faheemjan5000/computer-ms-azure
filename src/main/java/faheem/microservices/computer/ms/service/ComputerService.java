@@ -16,7 +16,7 @@ public class ComputerService {
     private ComputerRepository computerRepository;
 
     public Computer addComputer(Computer computer){
-
+        System.out.printf("ComputerService.addComputer method is called...");
         return computerRepository.save(computer);
     }
 
